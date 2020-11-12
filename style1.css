@@ -1,0 +1,130 @@
+h1{color:rgb(238, 255, 0);
+    margin-left:50px;
+    padding-left: 25px;
+    margin-right:50px;
+    padding-right: 25px;
+    margin-top: 50px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+}
+.menu{
+    margin-right:50px;
+    padding: 25px;
+}
+.menu *{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 25px;
+    width: 250px;
+    font-family: fantasy;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header *{border:solid}
+.header{      
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight: 400;
+    color:#FFFFFF;
+    
+}
+.sideDiacription{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.clickme{
+    margin-left:700px;
+    padding-left: 25px;
+    margin-right:715px;
+    padding-right: 25px;
+    margin-top: 50px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #D3E7FF;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.clickme:hover a{
+    opacity: 0.5;
+    
+}
+
+.clickme p{
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.clickme:hover p{
+    opacity: 1;
+}
+
+
+.item{
+    margin: 25px;
+    padding: 30px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #F2C0C1;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.item:hover a{
+    opacity: 0.5;
+    
+}
+
+.menu:hover{
+    transform: scale(1.2);
+}
+
+.item p{
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(0, 255, 34);
+}
